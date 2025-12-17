@@ -1,0 +1,58 @@
+/* .embla {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__container {
+  display: flex;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  margin-left: -10px;
+}
+
+.embla__slide {
+  position: relative;
+  min-width: 60%; 
+  padding: 0 10px;
+  transition: transform 220ms ease;
+  will-change: transform;
+  transform-origin: center center;
+}
+
+.embla__slide__img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.embla__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.embla__prev,
+.embla__next {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.embla__prev:hover,
+.embla__next:hover {
+  background: #555;
+} */

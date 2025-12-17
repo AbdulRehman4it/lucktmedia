@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+vendor/
+
+
+# Build
+dist/
+dist-ssr/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# System
+Thumbs.db
+desktop.ini

@@ -1,0 +1,40 @@
+
+
+@keyframes floatUp {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes floatDown {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(20px); }
+}
+
+.animate-up {
+  animation: floatUp 3s ease-in-out infinite;
+}
+
+.animate-down {
+  animation: floatDown 3s ease-in-out infinite;
+}
+
+
+@keyframes floatDown {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(20px); }
+}
+@keyframes floatUp {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.animate-down {
+  animation: floatDown 3s ease-in-out infinite;
+}
+.animate-up {
+  animation: floatUp 3s ease-in-out infinite;
+}
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]){
+  margin-top: 0;
+}
