@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
           {/* Large screen */}
           <div className="hidden sm:flex gap-10 items-center pt-6">
             <div className="flex justify-center sm:justify-start">
-              <p className="font-bold">Monday - &nbsp;</p>
+              <p className="font-bold">Monday -&nbsp;</p>
               <p className="font-bold">Friday</p>
             </div>
             <div className="flex justify-center sm:justify-start">

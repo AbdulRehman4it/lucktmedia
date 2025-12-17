@@ -93,11 +93,10 @@ const Sweethome: React.FC = () => {
         <p
           className="text-center 
             text-sm sm:text-lg md:text-xl lg:text-2xl
-            px-5 sm:px-10 md:px-20 lg:px-[120px] 
-            leading-[28px] sm:leading-[32px] md:leading-[36px] lg:leading-[43px] 
-            mt-6 mb-20 sm:mt-8 md:mt-10"
+            px-5 sm:px-10 md:px-20 lg:px-[120px] 2xl:px-44
+            leading-[28px] sm:leading-[32px] md:leading-[36px] lg:leading-[43px] mt-6 mb-20 sm:mt-8 md:mt-10 max-w-8xl"
         >
-          The visual system captures the essence of a sweet home, warm, safe, and full of life. Inspired by honey tones, bee <br className="2xl:block hidden" />  motifs, and the hexagon structure, the design reflects a space that feels cozy, welcoming, and harmonious.
+          The visual system captures the essence of a sweet home, warm, safe, and full of life. Inspired by honey tones, bee  motifs, and the hexagon structure, the design reflects a space that feels cozy, welcoming, and harmonious.
         </p>
       </div>
 
@@ -166,7 +165,7 @@ const Sweethome: React.FC = () => {
           <section>
       <div className="bg-black flex flex-col lg:flex-row 2xl:items-center py-20 mt-16 lg:mt-24 2xl:mt-40">
         {/* 🔸 Left Content */}
-        <div className="w-full lg:w-1/3">
+        <div className="w-full lg:w-1/3 2xl:w-2/5">
           {/* Heading */}
           <div className="flex justify-center lg:justify-start pl-0 lg:pl-12 2xl:pl-24">
             <h2 className="inline-block text-2xl sm:text-4xl md:text-[44px] lg:text-4xl xl:text-[40px] font-bold text-black bg-[#00ff99] px-3 sm:px-5 py-3 sm:py-6 rounded-lg">
@@ -196,7 +195,7 @@ const Sweethome: React.FC = () => {
         </div>
 
         {/* 🔸 Right Content */}
-        <div className="w-full lg:w-2/3 mt-40 lg:mt-0 md:px-4 px-5">
+        <div className="w-full lg:w-2/3 2xl:w-3/5 mt-40 lg:mt-0 md:px-4 px-5">
           {/* Swiper Slider */}
           <Sweethomeslider />
 

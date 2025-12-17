@@ -41,7 +41,7 @@ const SocialMedia: React.FC = () => {
     <section>
       <div className="bg-black flex flex-col lg:flex-row py-20 mt-16">
         {/* 🔸 Left Content */}
-        <div className="w-full lg:w-1/3">
+        <div className="w-full lg:w-1/3 2xl:w-2/5">
           <div className="flex justify-center lg:justify-start pl-0 lg:pl-12 2xl:pl-24">
             <h2 className="inline-block text-2xl sm:text-4xl md:text-[44px] lg:text-4xl xl:text-[40px] font-bold text-black bg-[#00ff99] px-3 sm:px-5 py-3 sm:py-6 rounded-lg">
               Social media
@@ -69,7 +69,7 @@ const SocialMedia: React.FC = () => {
         </div>
 
         {/* 🔸 Right Content */}
-        <div className="w-full lg:w-2/3 mt-24 lg:mt-0 md:px-4 px-5">
+        <div className="w-full lg:w-2/3 2xl:w-3/5 mt-24 lg:mt-0 md:px-4 px-5">
           <SocialSlider />
           <div className="text-center flex justify-center mt-10 2xl:mt-0">
             <p className="text-white text-[15px] sm:text-lg md:text-xl leading-[28px] md:leading-[36px] text-center md:w-[80%]">

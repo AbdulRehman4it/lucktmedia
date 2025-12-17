@@ -1,6 +1,6 @@
 import React from "react";
 
-import KonfederacjaImg from "../assets/blackwhite-480x471.svg"; // Import local image
+import KonfederacjaImg from "../assets/blackwhite-480x471.png"; // Import local image
 
 const BradingAdvertising: React.FC = () => {
   return (

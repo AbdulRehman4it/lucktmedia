@@ -156,11 +156,11 @@ const Sweethome: React.FC = () => {
               className="absolute 2xl:w-[700px] xl:w-[480px] lg:w-[380px] w-[90%] 
                 right-3 sm:right-0 md:right-0 lg:left-1/2 lg:-translate-x-1/2 
                 h-[200px] sm:h-[280px] md:h-[460px] lg:h-[480px] 2xl:h-[780px] 
-                top-[-40px] sm:top-[-90px] md:top-[-120px] lg:top-[-220px] xl:top-[-220px] 2xl:-top-[100%]
+                top-[-90px] sm:top-[-90px] md:top-[-150px] lg:top-[-220px] xl:top-[-220px] 2xl:-top-[80%]
                "
             >
               <video
-                className="autoplay-video w-full md:h-full h-[300px] object-cover lg:rounded-[40px] rounded-2xl"
+                className="2xl:ml-6 autoplay-video 2xl:w-[95%] h-auto object-cover lg:rounded-[40px] rounded-2xl"
                 
                 muted
                 loop
@@ -274,7 +274,7 @@ const Sweethome: React.FC = () => {
           <section>
       <div className="bg-black flex flex-col lg:flex-row py-20 mt-16 lg:mt-24 2xl:mt-40">
         {/* 🔸 Left Content */}
-        <div className="w-full lg:w-1/3">
+        <div className="w-full lg:w-1/3 2xl:w-2/5">
           {/* Heading */}
           <div className="flex justify-center lg:justify-start pl-0 lg:pl-12 2xl:pl-24">
             <h2 className="inline-block text-2xl sm:text-4xl md:text-[44px] lg:text-4xl xl:text-[40px] font-bold text-black bg-[#00ff99] px-3 sm:px-5 py-3 sm:py-6 rounded-lg">
@@ -304,7 +304,7 @@ const Sweethome: React.FC = () => {
         </div>
 
         {/* 🔸 Right Content */}
-        <div className="w-full lg:w-2/3 mt-40 lg:mt-0 md:px-4 px-5">
+        <div className="w-full lg:w-2/3 2xl:w-3/5 mt-40 lg:mt-0 md:px-4 px-5">
           {/* Swiper Slider */}
           <Torbazslider />
 

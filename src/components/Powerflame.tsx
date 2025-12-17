@@ -64,7 +64,7 @@ const Powerflame: React.FC = () => {
         </div>
 
         <div className="bg-black/90 text-white w-full lg:w-1/2 p-6 sm:p-10 md:p-12 lg:p-16 flex flex-col justify-center items-center text-center">
-          <h2 className="inline-block rounded-md px-3 sm:px-5 py-3 lg:text-2xl text-xl font-extrabold flex justify-center rounded-lg bg-[#00ff9c] lg:leading-[41px] leading-[27px] text-black mt-16">
+          <h2 className="inline-block rounded-md px-3 sm:px-5 py-3 lg:text-2xl text-xl font-extrabold flex justify-center rounded-lg bg-[#00ff9c] lg:leading-[41px] leading-[27px] text-black mt-10">
             Permanent cooperation
           </h2>
 
@@ -82,8 +82,8 @@ const Powerflame: React.FC = () => {
           </h2>
         </div>
 
-        <p className="text-center text-sm sm:text-lg md:text-xl lg:text-2xl px-5 sm:px-10 md:px-20 lg:px-[120px] leading-[28px] sm:leading-[32px] md:leading-[36px] lg:leading-[43px] mt-6 mb-20 sm:mt-8 md:mt-10">
-          A memorable, informative, and conversion-driven design. Built to highlight Power Flame’s expertise with clear <br className="2xl:block hidden" /> structure, solid content, and a professional visual identity that builds trust and recognition.
+        <p className="text-center text-sm sm:text-lg md:text-xl lg:text-2xl px-5 sm:px-10 md:px-20 lg:px-[120px] 2xl:px-48 leading-[28px] sm:leading-[32px] md:leading-[36px] lg:leading-[43px] mt-6 mb-20 sm:mt-8 md:mt-10 max-w-8xl">
+          A memorable, informative, and conversion-driven design. Built to highlight Power Flame’s expertise with clear structure, solid content, and a professional visual identity that builds trust and recognition.
         </p>
 
         <div>
@@ -96,7 +96,7 @@ const Powerflame: React.FC = () => {
 
       {/* 🔹 Online Presence Section */}
       <section className="bg-black flex flex-col lg:flex-row pt-20 md:pt-0 md:pt-20 md:pb-20 mt-16 lg:mt-24 2xl:mt-40">
-        <div className="w-full lg:w-1/3">
+        <div className="w-full lg:w-1/3 2xl:w-2/5">
           <div className="flex justify-center lg:justify-start pl-0 lg:pl-12 2xl:pl-24">
             <h2 className="inline-block text-2xl sm:text-4xl md:text-[44px] lg:text-5xl xl:text-[40px] font-bold text-black bg-[#00ff99] px-3 sm:px-5 py-3 sm:py-6 rounded-lg">
               Online presence
@@ -121,7 +121,7 @@ const Powerflame: React.FC = () => {
               We placed strong emphasis on building a consistent and recognizable online presence. From the start, we created a cohesive visual identity supported by product photoshoots and video recordings, which we continue to use across all social media channels. This unified approach not only strengthens brand recognition but also drives sales, proving how much consistency in visual communication truly matters. By taking a unique approach to a routine product, we turned heating pellets into a strong, recognizable brand with clear market differentiation.
             </p>
 
-        <div className="w-full lg:w-2/3 md:mt-24 mt-20 lg:mt-0 md:px-4 px-5">
+        <div className="w-full lg:w-2/3 2xl:w-3/5 md:mt-24 mt-20 lg:mt-0 md:px-4 px-5">
           <Powerflameslider />
           <div className="text-center flex justify-center mt-10 2xl:mt-0">
             <p className="text-white text-[15px] sm:text-lg md:text-xl leading-[28px] md:leading-[36px] text-center md:w-[80%] hidden lg:block">

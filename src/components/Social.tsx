@@ -24,7 +24,7 @@ const Social: React.FC = () => {
     <section>
       <div className="bg-black flex flex-col lg:flex-row py-16 2xl:py-24 mt-20">
         {/* Left Content */}
-        <div className="w-full lg:w-1/3">
+        <div className="w-full lg:w-1/3 2xl:w-2/5">
           {/* Heading */}
           <div className="flex justify-center lg:justify-start pl-0 lg:pl-12 2xl:pl-24">
             <h2 className="inline-block text-2xl sm:text-4xl md:text-[44px] lg:text-4xl xl:text-[44px] font-bold text-black bg-[#00ff99] px-3 sm:px-5 py-3 sm:py-6 rounded-lg">
@@ -60,7 +60,7 @@ const Social: React.FC = () => {
         </div>
 
         {/* Right Side Content */}
-        <div className="w-full lg:w-2/3 mt-52 lg:mt-0 px-4">
+        <div className="w-full lg:w-2/3 2xl:w-3/5 mt-52 lg:mt-0 px-4">
           {/* First Swiper with Coverflow & Autoplay */}
           <Swiper
             modules={[Navigation, Autoplay, EffectCoverflow]}
@@ -105,22 +105,6 @@ const Social: React.FC = () => {
           <div className="2xl:px-40 xl:px-20 md:px-10">
             <SocialMediaSlider />
           </div>
-          {/* <Swiper
-            modules={[Navigation, Autoplay]}
-            navigation
-            autoplay={{ delay: 2500, disableOnInteraction: false }}
-            spaceBetween={20}
-            slidesPerView={1}
-            loop={true}
-            className="mySwiper2 overflow-hidden"
-          >
-            <SwiperSlide><img src={slider2Img1} alt="Slider 1" className="w-full h-[400px] object-cover" /></SwiperSlide>
-            <SwiperSlide><img src={slider2Img2} alt="Slider 2" className="w-full h-[400px] object-cover" /></SwiperSlide>
-            <SwiperSlide><img src={slider2Img3} alt="Slider 3" className="w-full h-[400px] object-cover" /></SwiperSlide>
-            <SwiperSlide><img src={slider2Img4} alt="Slider 4" className="w-full h-[400px] object-cover" /></SwiperSlide>
-            <SwiperSlide><img src={slider2Img5} alt="Slider 5" className="w-full h-[400px] object-cover" /></SwiperSlide>
-            <SwiperSlide><img src={slider2Img6} alt="Slider 6" className="w-full h-[400px] object-cover" /></SwiperSlide>
-          </Swiper> */}
         </div>
       </div>
     </section>

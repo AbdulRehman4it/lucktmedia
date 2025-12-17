@@ -14,13 +14,13 @@ const LuckyMediaSection: React.FC = () => {
             Lucky Media
           </span>
           </h2>
-          <p className="font-[700] mt-4 text-[20px] leading-[34px] sm:text-[22px] sm:leading-[34px] md:text-[28px] md:leading-[72px] lg:text-[32px] lg:leading-[72px]">
+          <p className="font-[700] mt-4 text-[20px] leading-[34px] sm:text-[22px] sm:leading-[34px] md:text-[28px] md:leading-[50px] lg:text-[32px] lg:leading-[72px]">
             You may not believe in luck,<br />
-            but this isn’t just a chance meeting. Welcome to a world where art
+            but this isn’t just a chance meeting.<br className="2xl:block hidden" /> Welcome to a world where art
             meets digital precision.
           </p>
             <a href="https://calendly.com/hi-luckymedia/firstmeeting">
-          <button className="mt-10 border-[5px] border-black bg-white text-black px-4 sm:px-5 py-3 sm:py-4 rounded-xl transition duration-500 hover:border-black hover:shadow-[0_0_30px_8px_rgba(0,255,170,0.9)] text-sm sm:text-base md:text-xl mb-10">
+          <button className="mt-10 border-[5px] border-black bg-white text-black px-4 sm:px-5 py-3 sm:py-4 rounded-xl transition duration-500 hover:border-black hover:shadow-[0_0_30px_8px_rgba(0,255,170,0.9)] text-sm sm:text-base md:text-xl">
             Schedule an online meeting
           </button>
           </a>
@@ -37,10 +37,10 @@ const LuckyMediaSection: React.FC = () => {
                 className="w-[55px] sm:w-[35px] lg:w-[47px]"
               />
             </div>
-            <h3 className="font-bold text-[20px] sm:text-[22px] md:text-[28px] lg:text-[38px] mt-4 mb-8">
+            <h3 className="font-bold text-[20px] sm:text-[22px] md:text-[28px] lg:text-3xl xl:text-[38px] mt-4 mb-8 xl:leading-[44px]">
               Why is it worth it?
             </h3>
-            <p className="text-[#D9D9D9] font-light text-base mt-2 leading-[32px] sm:leading-8 md:leading-9 2xl:leading-[45px]">
+            <p className="luckymediatext text-[#D9D9D9] font-light text-base lg:text-sm lg:leading-7 xl:text-base 2xl:text-sm mt-2 leading-[32px] xl:leading-[32px] md:leading-9 2xl:leading-9">
               In our monthly subscription, we provide your company with the
               services of a marketing specialist, web developer, graphic
               designer, and copywriter at affordable price. Remember, marketing
@@ -57,10 +57,10 @@ const LuckyMediaSection: React.FC = () => {
                 className="w-[55px] sm:w-[35px] lg:w-[47px] 2xl:w-"
               />
             </div>
-            <h3 className="font-bold mt-4 text-[20px] sm:text-[22px] md:text-[28px] lg:text-[38px] mb-8">
-              Our work <br className="2xl:hidden xl:block hidden" /> ethic
+            <h3 className="font-bold mt-4 text-[20px] sm:text-[22px] md:text-[28px] lg:text-3xl xl:text-[38px] mb-8 xl:leading-[44px]">
+              Our work <br className="2xl:block hidden" /> ethic
             </h3>
-            <p className="text-[#D9D9D9] font-light text-base  mt-2 leading-[32px] sm:leading-8 md:leading-9 2xl:leading-[45px]">
+            <p className="luckymediatext text-[#D9D9D9] font-light text-base lg:text-sm lg:leading-7 xl:text-base 2xl:text-sm mt-2 leading-[32px] xl:leading-[32px] md:leading-9 2xl:leading-9">
               You’re the expert in your product, and we’re here for marketing.
               You don’t need to keep up with the latest trends or speak
               marketing jargon. We stay ahead of the game, so you can rely on

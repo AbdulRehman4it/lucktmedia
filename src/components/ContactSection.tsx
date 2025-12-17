@@ -4,6 +4,9 @@ import { Link } from "react-router-dom"; // ✅ Import Link for routing
 import animationData from "../assets/karty-najnowsze.json"; // JSON path
 import StatusPopup from "./StatusPopup";
 
+
+import "./text.css"
+
 const ContactSection: React.FC = () => {
   const [status, setStatus] = React.useState<'success' | 'error' | null>(null);
   const [statusMessage, setStatusMessage] = React.useState('');
@@ -53,7 +56,7 @@ const ContactSection: React.FC = () => {
             <Lottie loop play animationData={animationData} />
           </div>
 
-          <p className="text-base md:text-[22px] lg:text-2xl 2xl:text-[28px] leading-[28px] sm:leading-[36px] md:leading-[44px] lg:leading-10 2xl:leading-[60px] font-normal mt-4 text-[#171717] px-5 md:px-0">
+          <p className="contacttext text-base md:text-[22px] lg:text-2xl leading-[28px] sm:leading-[36px] md:leading-[44px] lg:leading-10 2xl:leading-[45px] font-normal mt-4 text-[#171717] px-5 md:px-0">
             Your business seems to be stuck at some level? Maybe you are about
             to finalize your dream ideas and kick off with a new venture? Let
             us know what’s on your mind, and we’ll see how we can assist you.
@@ -66,7 +69,7 @@ const ContactSection: React.FC = () => {
             <p className="text-[14px] mb-6 text-gray-500">
               Book a video meeting{" "}
               <span className="text-black">
-                <a href="https://luckymedia.marketing/booking-calendar/">here.</a>
+                here.
               </span>
             </p>
 

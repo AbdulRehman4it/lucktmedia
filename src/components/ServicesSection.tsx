@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./text.css"
+
 const ServicesSection: React.FC = () => {
   return (
     <section className=" mt-16 sm:mt-32">
@@ -103,7 +105,7 @@ flex flex-col items-center justify-center gap-6 [backface-visibility:hidden] bor
 
         {/* Back */}
         <div
-          className={`absolute w-full h-full ${card.backBg} rounded-[40px] text-white p-6 sm:p-8 flex items-center justify-center text-center text-[16px] sm:text-[20px] md:text-[24px] leading-[38px] sm:leading-[34px] md:leading-[38px] [backface-visibility:hidden] [transform:rotateY(180deg)]`}
+          className={`servicescardtext absolute w-full h-full ${card.backBg} rounded-[40px] text-white p-6 sm:p-8 flex items-center justify-center text-center text-base sm:text-xl md:text-2xl lg:text-xl leading-[38px] sm:leading-[34px] md:leading-[38px] lg:leading-9 2xl:leading-10 [backface-visibility:hidden] [transform:rotateY(180deg)]`}
         >
           <p>{card.desc}</p>
         </div>

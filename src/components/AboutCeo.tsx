@@ -7,7 +7,7 @@ import DamianImg from "../assets/damian.webp";
 const AboutCeo: React.FC = () => {
   return (
     <section>
-      <div className="flex lg:flex-row flex-col-reverse items-center 2xl:gap-32 xl:gap-28 gap-10 px-4 sm:px-8 md:px-16 lg:px-10 xl:px-28 lg:pt-28 pt-20">
+      <div className="flex lg:flex-row flex-col-reverse 2xl:gap-48 xl:gap-28 gap-10 px-4 sm:px-8 md:px-16 lg:px-10 xl:px-28 lg:pt-28 pt-20">
         {/* Left Side */}
         <div className="lg:w-1/2 w-full">
           <div className="flex justify-center items-center">
@@ -49,7 +49,7 @@ const AboutCeo: React.FC = () => {
             </p>
           <p
             className="text-[#171717] lg:text-start text-center text-base md:text-lg 2xl:text-[26px]
-            leading-8 md:leading-9 xl:leading-10 2xl:leading-[47px] pt-6 2xl:pt-10 lg:block hidden"
+            leading-8 md:leading-9 xl:leading-10 2xl:leading-[54px] pt-6 2xl:pt-10 lg:block hidden"
           >
             My passion is shaping perception, rebuilding and reimagining brands from the ground up, starting with a color, a meaning, and a story that lasts. That’s why I created Lucky Media - a space where strategy, design, and marketing come together to build brands that truly stand out in a world flooded with AI-generated content. I craft every brief, campaign, and strategy myself, supported by a team of exceptional specialists. At Lucky Media, you always work directly with me, because unforgettable brands are built with focus, vision, and true dedication. We’re not just a marketing agency - we’re your marketing team to take care of both, technical and visual matters.
           </p>
