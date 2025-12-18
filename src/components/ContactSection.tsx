@@ -42,7 +42,7 @@ const ContactSection: React.FC = () => {
   return (
     <section className="px-4 sm:px-8 md:px-16 lg:px-40 xl:px-28 py-10 lg:py-20 mt-14">
       <div className="lg:border-4 border border-black flex flex-col xl:flex-row w-full rounded-2xl sm:p-10 lg:p-12 gap-10">
-        
+
         {/* Left Text */}
         <div className="w-full xl:w-2/5 text-center lg:text-left">
           <h2 className="text-2xl sm:text-[40px] md:text-[50px] lg:text-[59px] font-[800] leading-tight 2xl:mb-32 mb-14 pt-10">
@@ -69,7 +69,9 @@ const ContactSection: React.FC = () => {
             <p className="text-[14px] mb-6 text-gray-500">
               Book a video meeting{" "}
               <span className="text-black">
-                here.
+                <Link to="/Booking" className="underline">
+                  here.
+                </Link>
               </span>
             </p>
 
@@ -102,19 +104,19 @@ const ContactSection: React.FC = () => {
               <p className="">
                 I agree to the processing of my personal data in accordance with the &nbsp;
                 <span>
-                <Link to="/privacy" className="underline">
-                   Privacy Policy
-                </Link>
+                  <Link to="/privacy" className="underline">
+                    Privacy Policy
+                  </Link>
                 </span>
               </p>
             </div>
 
             <div>
-  <label className="flex items-start gap-3 font-bold">
-    <input
-      type="checkbox"
-      required
-      className="
+              <label className="flex items-start gap-3 font-bold">
+                <input
+                  type="checkbox"
+                  required
+                  className="
         mt-1 w-5 h-5
         border border-black
         rounded-[4px]
@@ -129,16 +131,16 @@ const ContactSection: React.FC = () => {
         checked:after:w-full
         checked:after:text-sm
       "
-    />
-    To be contacted regarding my inquiry. (required)
-  </label>
-</div>
+                />
+                To be contacted regarding my inquiry. (required)
+              </label>
+            </div>
 
-<div>
-  <label className="flex items-start gap-3 font-bold">
-    <input
-      type="checkbox"
-      className="
+            <div>
+              <label className="flex items-start gap-3 font-bold">
+                <input
+                  type="checkbox"
+                  className="
         mt-1 w-5 h-5
         border border-black
         rounded-[4px]
@@ -153,10 +155,10 @@ const ContactSection: React.FC = () => {
         checked:after:w-full
         checked:after:text-sm
       "
-    />
-    To receive marketing and promotional information. (optional)
-  </label>
-</div>
+                />
+                To receive marketing and promotional information. (optional)
+              </label>
+            </div>
 
 
             <div>
@@ -168,10 +170,10 @@ const ContactSection: React.FC = () => {
         </div>
 
       </div>
-      <StatusPopup 
-        status={status} 
-        message={statusMessage} 
-        onClose={() => setStatus(null)} 
+      <StatusPopup
+        status={status}
+        message={statusMessage}
+        onClose={() => setStatus(null)}
       />
     </section>
   );

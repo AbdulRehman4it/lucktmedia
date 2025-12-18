@@ -28,4 +28,15 @@
   }
 }
 
+@media (min-width: 1768px) {
+  .aboutceo{
+    gap: 192px;
+    font-size: 26px;
+  }
+  .aboutceotext{
+    line-height: 54px;
+    font-size: 26px;
+  }
+}
+
 

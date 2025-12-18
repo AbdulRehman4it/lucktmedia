@@ -68,6 +68,7 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Privacy from "./pages/Privacy";
 import Cookies from "./pages/Cookies";
+import Booking from "./pages/Booking";
 import Preloader from "./components/Preloader";
 import "./App.css";
 
@@ -90,6 +91,7 @@ const PageWrapper: React.FC = () => {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/Privacy" element={<Privacy />} />
           <Route path="/Cookies" element={<Cookies />} />
+          <Route path="/Booking" element={<Booking />} />
         </Routes>
       </div>
     </>
