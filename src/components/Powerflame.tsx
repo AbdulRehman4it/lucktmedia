@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Powerflameslider from "./Powerflameslider";
 import Powervideoslider from "./Powervideoslider";
 
-import powerImage from "../assets/powerflamelogo.svg";
+import powerImage from "../assets/powerrrflame.svg";
 import powerimg from "../assets/powerflameimg.webp";
 
 import videoMockup from "../assets/PV Main.mp4";
@@ -63,7 +63,7 @@ const Powerflame: React.FC = () => {
           <img src={powerImage} alt="Online Advertising" className="w-[254px] md:w-[400px]" />
         </div>
 
-        <div className="bg-black/90 text-white w-full lg:w-1/2 p-6 sm:p-10 md:p-12 lg:p-16 flex flex-col justify-center items-center text-center">
+        <div className="bg-black text-white w-full lg:w-1/2 p-6 sm:p-10 md:p-12 lg:p-16 flex flex-col justify-center items-center text-center">
           <h2 className="inline-block rounded-md px-3 sm:px-5 py-3 lg:text-2xl text-xl font-extrabold flex justify-center rounded-lg bg-[#00ff9c] lg:leading-[41px] leading-[27px] text-black mt-10">
             Permanent cooperation
           </h2>
@@ -110,7 +110,7 @@ const Powerflame: React.FC = () => {
                 muted
                 loop
                 playsInline
-                className="lg:w-full md:w-2/3 rounded-xl 2xl:-mt-28 md:-mt-20 -mt-14"
+                className="lg:w-full powerflamevideo md:w-2/3 rounded-xl 2xl:-mt-24 md:-mt-20 -mt-14"
                 src={videoMockup}
               />
             </div>
@@ -193,7 +193,7 @@ const Powerflame: React.FC = () => {
 
       {/* 🔹 Branding Text */}
       <section>
-        <div className="bg-[#171717] mt-28">
+        <div className="bg-black mt-28">
           <p className="text-center text-sm sm:text-lg md:text-xl lg:text-2xl px-4 sm:px-10 md:px-16 lg:px-20 2xl:px-36 py-8 sm:py-12 md:py-16 lg:py-24 text-white leading-10 sm:leading-[34px] md:leading-[42px] lg:leading-[50px]">
             In the end, every number here reflects a creative decision that worked - transforming visuals into measurable business results. These outcomes aren’t just data points; they’re proof of strategy, consistency, and design thinking applied with purpose. Each campaign insight helps us refine, evolve, and push the boundaries of what effective visual communication can achieve.
           </p>

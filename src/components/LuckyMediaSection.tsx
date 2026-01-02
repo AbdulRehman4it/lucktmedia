@@ -29,15 +29,15 @@ const LuckyMediaSection: React.FC = () => {
         {/* Right side */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 2xl:gap-12">
           {/* Card 1 */}
-          <div className="bg-[#1a1a1a] 2xl:rounded-3xl rounded-2xl p-4 sm:p-6 2xl:p-7 text-center">
-            <div className="justify-center flex mt-5">
+          <div className="bg-[#1a1a1a] 2xl:rounded-3xl rounded-2xl p-4 sm:p-6 2xl:p-7 text-start">
+            <div className="justify-start flex mt-5">
               <img
                 src={iconLucky}
                 alt="Lucky Icon"
                 className="w-[55px] sm:w-[35px] lg:w-[47px]"
               />
             </div>
-            <h3 className="font-bold text-[20px] sm:text-[22px] md:text-[28px] lg:text-3xl xl:text-[38px] mt-4 mb-8 xl:leading-[44px]">
+            <h3 className="font-bold text-[20px] sm:text-[22px] md:text-2xl 2xl:text-3xl mt-4 mb-8 xl:leading-[44px]">
               Why is it worth it?
             </h3>
             <p className="luckymediatext text-[#D9D9D9] font-light text-base lg:text-sm lg:leading-7 xl:text-base 2xl:text-sm mt-2 leading-[32px] xl:leading-[32px] md:leading-9 2xl:leading-9">
@@ -49,16 +49,16 @@ const LuckyMediaSection: React.FC = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-[#1a1a1a] 2xl:rounded-3xl rounded-2xl p-4 sm:p-6 2xl:p-7 text-center">
-            <div className="justify-center flex mt-5">
+          <div className="bg-[#1a1a1a] 2xl:rounded-3xl rounded-2xl p-4 sm:p-6 2xl:p-7 text-start">
+            <div className="justify-start flex mt-5">
               <img
                 src={icon3}
                 alt="Work Ethic Icon"
-                className="w-[55px] sm:w-[35px] lg:w-[47px] 2xl:w-"
+                className="w-[55px] sm:w-[35px] lg:w-[47px]"
               />
             </div>
-            <h3 className="font-bold mt-4 text-[20px] sm:text-[22px] md:text-[28px] lg:text-3xl xl:text-[38px] mb-8 xl:leading-[44px]">
-              Our work <br className="2xl:block hidden" /> ethic
+            <h3 className="font-bold mt-4 text-[20px] sm:text-[22px] md:text-2xl 2xl:text-3xl mb-8 xl:leading-[44px]">
+              Our work ethic
             </h3>
             <p className="luckymediatext text-[#D9D9D9] font-light text-base lg:text-sm lg:leading-7 xl:text-base 2xl:text-sm mt-2 leading-[32px] xl:leading-[32px] md:leading-9 2xl:leading-9">
               You’re the expert in your product, and we’re here for marketing.

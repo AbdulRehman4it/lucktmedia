@@ -15,7 +15,7 @@ const QuickBrandBooster: React.FC = () => {
       </div>
 
       {/* ========== Right Side (Content Area) ========== */}
-      <div className="bg-black/90 text-white w-full lg:w-1/2 
+      <div className="bg-black text-white w-full lg:w-1/2 
                       px-4 sm:px-8 md:px-10 
                       py-10 sm:py-16 md:py-24 
                       flex flex-col justify-center items-center pt-12 pb-20">

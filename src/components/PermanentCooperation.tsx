@@ -10,7 +10,7 @@ const PermanentCooperation: React.FC = () => {
       </div>
 
       {/* 🔸 Right Side: Text Content */}
-      <div className="bg-black/90 text-white w-full lg:w-1/2 px-5 md:px-10 py-8 sm:py-12 md:py-16 lg:py-24 flex flex-col justify-center items-center">
+      <div className="bg-black text-white w-full lg:w-1/2 px-5 md:px-10 py-8 sm:py-12 md:py-16 lg:py-24 flex flex-col justify-center items-center">
         {/* Subheading */}
         <h2
           className="inline-block rounded-md  

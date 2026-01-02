@@ -3,7 +3,7 @@ import React from "react";
 const BrandingExcellence: React.FC = () => {
   return (
     <section>
-      <div className="bg-[#171717] mt-28">
+      <div className="bg-black mt-28">
         {/* ================= Branding Text Content ================= */}
         <p
           className="text-center text-sm sm:text-lg md:text-xl lg:text-2xl 

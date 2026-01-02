@@ -102,11 +102,11 @@ const ContactPopup: React.FC<ContactPopupProps> = ({ isOpen, onClose }) =>  {
                 <div className="w-full xl:w-3/5">
                   <form onSubmit={handleSubmit} className="space-y-5 bg-[#e8e8e8] border border-black/10 rounded-2xl p-4 sm:p-5 md:p-16 shadow-sm sm:border-[1px] md:border-[5px]">
                     <p className="text-[14px] mb-6 text-gray-500">
-                      Book a video meeting  
+                      Book a video meeting&nbsp;  
                       <span className="text-black">
-                       <Link to="/Booking" className="">
-                                      &nbsp;here.
-                                   </Link>
+                          <a href="https://calendly.com/hi-luckymedia/firstmeeting" target="_blank" className="underline">here.
+                          </a>
+                                   
                        </span>
                     </p>
                     <div>

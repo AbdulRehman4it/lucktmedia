@@ -55,7 +55,7 @@ const Sweethome: React.FC = () => {
       </div>
 
       {/* 🔸 Right Side: Text Content */}
-      <div className="bg-black/90 text-white w-full lg:w-1/2 p-6 sm:p-10 md:p-12 lg:p-16 flex flex-col justify-center items-center text-center">
+      <div className="bg-black text-white w-full lg:w-1/2 p-6 sm:p-10 md:p-12 lg:p-16 flex flex-col justify-center items-center text-center">
         {/* Subheading */}
         <h2
           className="inline-block rounded-md 
