@@ -51,12 +51,102 @@
 
 @media (min-width: 2100px) {
   .powerflamevideo{
-    width: 80%;
-    margin-top: -100px;
-   
+    width: 70%;
+    margin-top: -100px; 
+  }
+  .margin{
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
 
+
+
+@media (min-width: 1768px) {
+  .sweethomevideo{
+    width: 80%;
+    margin-top: -150px;
     
   }
 }
 
 
+@media (min-width: 2100px) {
+  .sweethomevideo{
+    width: 70%;
+    margin-top: -200px; 
+  }
+  .margin{
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .sweethomeimg{
+    width: 80%;
+    right: 100px;
+  }
+}
+
+@media (min-width: 1768px) {
+  .torbazvideo{
+    width: 80%;
+    margin-top: -100px;
+    
+  }
+}
+@media (min-width: 2100px) {
+  .torbazvideo{
+    width: 70%;
+    margin-top: -100px; 
+  }
+  .margin{
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .torbazimg{
+    width: 80%;
+    right: 100px;
+  }
+}
+
+
+@media (min-width: 1768px) {
+  .socialvideo{
+    width: 80%;
+   margin-top: -120px;
+  }
+}
+
+@media (min-width: 2100px) {
+  .socialvideo{
+    width: 70%;
+    margin-top: -100px; 
+  }
+  .margin{
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .politicalimg{
+    width: 80%;
+    right: 100px;
+  }
+}
+
+
+@media (min-width: 2100px) {
+  .audiancevideo{
+    width: 80%;
+    margin-top: -0px; 
+  }
+  .margin{
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .politicalimg{
+    width: 80%;
+    right: 100px;
+  }
+}

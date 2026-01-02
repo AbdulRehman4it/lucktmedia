@@ -27,7 +27,7 @@ const PoliticalCompaign: React.FC = () => {
                           relative h-[220px] md:h-[460px] lg:h-[220px] 2xl:h-[330px]"
             >
                <div className="xl:top-[-90px] top-[-50px] absolute">
-          <img src={Bookimg} alt="grid-img-1" />
+          <img src={Bookimg} alt="grid-img-1" className="politicalimg" />
         </div>
             </div>
           </div>

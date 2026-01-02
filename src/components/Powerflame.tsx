@@ -95,7 +95,7 @@ const Powerflame: React.FC = () => {
       <Powervideoslider />
 
       {/* 🔹 Online Presence Section */}
-      <section className="bg-black flex flex-col lg:flex-row pt-20 md:pt-0 md:pt-20 md:pb-20 mt-16 lg:mt-24 2xl:mt-40">
+      <section className="margin bg-black flex flex-col lg:flex-row py-20 md:pb-20 mt-16 lg:mt-24 2xl:mt-40">
         <div className="w-full lg:w-1/3 2xl:w-2/5">
           <div className="flex justify-center lg:justify-start pl-0 lg:pl-12 2xl:pl-24">
             <h2 className="inline-block text-2xl sm:text-4xl md:text-[44px] lg:text-5xl xl:text-[40px] font-bold text-black bg-[#00ff99] px-3 sm:px-5 py-3 sm:py-6 rounded-lg">
@@ -103,7 +103,8 @@ const Powerflame: React.FC = () => {
             </h2>
           </div>
           <div className="flex justify-center md:justify-start mt-28 lg:mt-32">
-            <div className="bg-[#00FF9C] rounded-tr-[30px] sm:rounded-tr-[40px] md:rounded-tr-[50px] rounded-br-[30px] sm:rounded-br-[40px] md:rounded-br-[50px] p-4 sm:p-6 lg:w-[85%] md:w-[70%] mr-20 md:mr-0 relative h-[180px] md:h-[320px] lg:h-[220px] 2xl:h-[340px]">
+            <div className="bg-[#00FF9C] rounded-tr-[30px] sm:rounded-tr-[40px] md:rounded-tr-[50px] rounded-br-[30px] sm:rounded-br-[40px] md:rounded-br-[50px] p-4 sm:p-6 lg:w-[85%] md:w-[70%] mr-20 md:mr-0 h-[180px] md:h-[320px] lg:h-[220px] 2xl:h-[340px]">
+            
               <video
                 ref={addToRefs}
                 muted
@@ -112,6 +113,7 @@ const Powerflame: React.FC = () => {
                 className="lg:w-full powerflamevideo md:w-2/3 rounded-xl 2xl:-mt-24 md:-mt-20 -mt-14"
                 src={videoMockup}
               />
+           
             </div>
           </div>
         </div>

@@ -193,7 +193,7 @@ const Sweethome: React.FC = () => {
                         <img
                           src={torbazimg}
                           alt="Paid Ads"
-                          className="w-[350px] md:w-[650px] lg:w-full md:top-[-160px] xl:-top-72 2xl:-top-80 -top-20 absolute right-1"
+                          className="torbazimg w-[350px] md:w-[650px] lg:w-full md:top-[-160px] xl:-top-72 2xl:-top-80 -top-20 absolute right-1"
                         />
                       </div>
                     </div>
@@ -272,7 +272,7 @@ const Sweethome: React.FC = () => {
 
 {/* Online presence scetion  */}
           <section>
-      <div className="bg-black flex flex-col lg:flex-row py-20 mt-16 lg:mt-24 2xl:mt-40">
+      <div className="margin bg-black flex flex-col lg:flex-row py-20 mt-16 lg:mt-24 2xl:mt-40">
         {/* 🔸 Left Content */}
         <div className="w-full lg:w-1/3 2xl:w-2/5">
           {/* Heading */}
@@ -295,7 +295,7 @@ const Sweethome: React.FC = () => {
                 
                 muted
                 playsInline
-                className="autoplay-video lg:w-full  md:w-3/4 w-full rounded-xl -mt-14 md:-mt-14 lg:-mt-16 2xl:-mt-28 md:ml-10 lg:ml-0"
+                className="torbazvideo autoplay-video lg:w-full  md:w-3/4 w-full rounded-xl -mt-14 md:-mt-14 lg:-mt-16 2xl:-mt-28 md:ml-10 lg:ml-0"
               >
                 <source src={torbapost} type="video/mp4" />
               </video>

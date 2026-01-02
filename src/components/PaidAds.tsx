@@ -70,7 +70,7 @@ const PaidAds: React.FC = () => {
             <img
               src={postyImage}
               alt="Paid Ads"
-              className="w-[350px] sm:w-[200px] md:w-full md:top-[-160px] lg:top-[-100px] 2xl:top-[-230px] -top-20 absolute right-[15px]"
+              className="pictorialimg w-[350px] sm:w-[200px] md:w-full md:top-[-160px] lg:top-[-100px] 2xl:top-[-230px] -top-20 absolute right-[15px]"
             />
 
             {/* ✅ Video option (uncomment if you want video) */}

@@ -39,7 +39,7 @@ const SocialMedia: React.FC = () => {
 
   return (
     <section>
-      <div className="bg-black flex flex-col lg:flex-row py-20 mt-16">
+      <div className="margin bg-black flex flex-col lg:flex-row py-20 mt-16">
         {/* 🔸 Left Content */}
         <div className="w-full lg:w-1/3 2xl:w-2/5">
           <div className="flex justify-center lg:justify-start pl-0 lg:pl-12 2xl:pl-24">
@@ -60,7 +60,7 @@ const SocialMedia: React.FC = () => {
                 loop
                 muted
                 playsInline
-                className="w-full rounded-xl md:-mt-28 -mt-20"
+                className="socialvideo w-full rounded-xl md:-mt-28 -mt-20"
               >
                 <source src={videoMockup} type="video/webm" />
               </video>

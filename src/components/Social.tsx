@@ -47,7 +47,7 @@ const Social: React.FC = () => {
                     className="md:w-[200px] w-[120px] h-[250px] md:h-[450px] 2xl:w-[250px] 2xl:h-[580px] object-cover animate-down"
                   />
                 </div> */}
-                <div className="absolute -rotate-12 lg:-top-28 2xl:-top-40 lg:-right-10 2xl:-right-24 right-10 -top-8">
+                <div className="absolute audianceimg -rotate-12 lg:-top-28 2xl:-top-40 lg:-right-10 2xl:-right-24 right-10 -top-8">
                   <img
                     src={phoneImg2}
                     alt="Phone 2"

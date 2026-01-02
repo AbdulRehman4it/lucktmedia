@@ -82,7 +82,7 @@ const AudianceSection: React.FC = () => {
             >
               <video
                 ref={videoRef}
-                className="w-full object-cover"
+                className="audiancevideo w-full object-cover"
                 muted
                 loop
                 playsInline
