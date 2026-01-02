@@ -45,18 +45,18 @@ const ContactSection: React.FC = () => {
 
         {/* Left Text */}
         <div className="w-full xl:w-2/5 text-center lg:text-left">
-          <h2 className="text-2xl sm:text-[40px] md:text-[50px] lg:text-[59px] font-[800] leading-tight 2xl:mb-32 mb-14 pt-10">
+          <h2 className="text-2xl sm:text-[40px] md:text-[50px] lg:text-[59px] font-[800] leading-tight 2xl:mb-10 mb-14 pt-10">
             It might be your <br className="2xl:block lg:hidden block" />
             <span className="text-[#00ff99]">lucky draw!</span> <br className="2xl:block lg:hidden block" />
             Contact us today.
           </h2>
 
           {/* Lottie Animation */}
-          <div className="w-auto 2xl:h-[350px] xl:h-[280px] md:h-[360px] h-[260px]">
+          <div className="w-[90%] 2xl:h-[350px] xl:h-[280px] md:h-[360px] h-[260px]">
             <Lottie loop play animationData={animationData} />
           </div>
 
-          <p className="contacttext text-base md:text-[22px] lg:text-2xl leading-[28px] sm:leading-[36px] md:leading-[44px] lg:leading-10 2xl:leading-[45px] font-normal mt-4 text-[#171717] px-5 md:px-0">
+          <p className="contacttext text-base md:text-[22px] lg:text-2xl leading-[28px] sm:leading-[36px] md:leading-[44px] lg:leading-10 2xl:leading-[45px] font-normal 2xl:mt-24 mt-4 text-[#171717] px-5 md:px-0">
             Your business seems to be stuck at some level? Maybe you are about
             to finalize your dream ideas and kick off with a new venture? Let
             us know what’s on your mind, and we’ll see how we can assist you.
