@@ -57,7 +57,7 @@ const Powerflame: React.FC = () => {
 
   return (
     <>
-      {/* 🔹 Hero Section */}
+      {/* Hero Section */}
       <section id="powerflame" className="w-full flex flex-col lg:flex-row mt-20 sm:mt-16 md:mt-20 lg:mt-28">
         <div className="bg-[#00FF9C] flex justify-center items-center w-full lg:w-1/2 py-16 md:py-16 lg:p-14">
           <img src={powerImage} alt="Online Advertising" className="w-[254px] md:w-[400px]" />
@@ -102,7 +102,6 @@ const Powerflame: React.FC = () => {
               Online presence
             </h2>
           </div>
-
           <div className="flex justify-center md:justify-start mt-28 lg:mt-32">
             <div className="bg-[#00FF9C] rounded-tr-[30px] sm:rounded-tr-[40px] md:rounded-tr-[50px] rounded-br-[30px] sm:rounded-br-[40px] md:rounded-br-[50px] p-4 sm:p-6 lg:w-[85%] md:w-[70%] mr-20 md:mr-0 relative h-[180px] md:h-[320px] lg:h-[220px] 2xl:h-[340px]">
               <video
@@ -115,7 +114,6 @@ const Powerflame: React.FC = () => {
               />
             </div>
           </div>
-         
         </div>
          <p className="text-white text-[15px] sm:text-lg md:text-xl leading-[28px] md:leading-[36px] text-center pt-24 px-5 block lg:hidden">
               We placed strong emphasis on building a consistent and recognizable online presence. From the start, we created a cohesive visual identity supported by product photoshoots and video recordings, which we continue to use across all social media channels. This unified approach not only strengthens brand recognition but also drives sales, proving how much consistency in visual communication truly matters. By taking a unique approach to a routine product, we turned heating pellets into a strong, recognizable brand with clear market differentiation.
@@ -147,7 +145,6 @@ const Powerflame: React.FC = () => {
           ))}
         </div>
       </section>
-
       {/* 🔹 Ad Performance Section */}
       <section>
         <div className="flex flex-col lg:flex-row items-center gap-12 2xl:gap-24 mt-16 2xl:mt-24">
