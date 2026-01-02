@@ -70,7 +70,7 @@ const ContactSection: React.FC = () => {
               Book a video meeting{" "}
               <span className="text-black">
                 <a href="https://calendly.com/hi-luckymedia/firstmeeting" target="_blank" className="underline">
-                  here.
+                   here.
                 </a>
               </span>
             </p>
